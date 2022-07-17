@@ -58,6 +58,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        Console.Clear();
         Console.Write("Введите точку начала первой прямой:");
         double b1 = Convert.ToInt32(Console.ReadLine());
         Console.Write("Введите точку конца первой прямой:");
@@ -79,6 +80,6 @@ internal class Program
         {
             Console.WriteLine("Прямые не пересекаются!");
         }
-        Console.WriteLine(y1 +"; " + y2);
+        Console.WriteLine("Точка пересечения двух прямых: " + y1 +"; " + y2);
     }
 }
